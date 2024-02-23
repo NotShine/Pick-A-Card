@@ -78,7 +78,25 @@ void BinaryTree::FindHighestLowestCard(LinkedDiscardPile list) {
 
     //Display highest and lowest card played
 
-    cout << "The highest card played is:  " << HighestCard.getRank() << " of ";
+    cout << "The highest card played is:  ";
+
+    if (HighestCard.getRank() == 14) {
+        cout << "Ace";
+    }
+    else if (HighestCard.getRank() == 13) {
+        cout << "King";
+    }
+    else if (HighestCard.getRank() == 12) {
+        cout << "Queen";
+    }
+    else if (HighestCard.getRank() == 11) {
+        cout << "Jack";
+    }
+    else {
+        cout << HighestCard.getRank();
+    }
+
+     cout  << " of ";
 
     if (HighestCard.getSuit() == 4) {
         cout << "Hearts\n";
@@ -95,7 +113,25 @@ void BinaryTree::FindHighestLowestCard(LinkedDiscardPile list) {
     else if (HighestCard.getSuit() == 1) {
         cout << "Spades\n";
     }
-    cout << " The lowest card played is:  " << LowestCard.getRank() << " of ";
+    cout << " The lowest card played is:  ";
+
+    if (LowestCard.getRank() == 14) {
+        cout << "Ace";
+    }
+    else if (LowestCard.getRank() == 13) {
+        cout << "King";
+    }
+    else if (LowestCard.getRank() == 12) {
+        cout << "Queen";
+    }
+    else if (LowestCard.getRank() == 11) {
+        cout << "Jack";
+    }
+    else {
+        cout << LowestCard.getRank();
+    }
+
+        cout <<" of ";
 
     if (LowestCard.getSuit() == 4) {
         cout << "Hearts\n";
