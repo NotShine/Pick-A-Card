@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CheckA3", "CheckA3.vcxproj", "{02A2003A-6B34-4885-A76E-34667749776F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02A2003A-6B34-4885-A76E-34667749776F}.Debug|x64.ActiveCfg = Debug|x64
+		{02A2003A-6B34-4885-A76E-34667749776F}.Debug|x64.Build.0 = Debug|x64
+		{02A2003A-6B34-4885-A76E-34667749776F}.Debug|x86.ActiveCfg = Debug|Win32
+		{02A2003A-6B34-4885-A76E-34667749776F}.Debug|x86.Build.0 = Debug|Win32
+		{02A2003A-6B34-4885-A76E-34667749776F}.Release|x64.ActiveCfg = Release|x64
+		{02A2003A-6B34-4885-A76E-34667749776F}.Release|x64.Build.0 = Release|x64
+		{02A2003A-6B34-4885-A76E-34667749776F}.Release|x86.ActiveCfg = Release|Win32
+		{02A2003A-6B34-4885-A76E-34667749776F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEB3C635-D774-4646-8517-F5196AE7BE20}
+	EndGlobalSection
+EndGlobal
